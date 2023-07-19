@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <main class="container">
+        <div class="calculadora">
+            <div class="header">
+                <div class="input">
+                    <input type="text" placeholder="CALCULAR" disabled>
+                </div>
+            </div>
+            <div class="numeros-e-operadores">
+                <div class="numeros">
+                    <div class="linha1">
+                        <button value="7">7</button>
+                        <button value="8">8</button>
+                        <button value="9">9</button>
+                    </div>
+                    <div class="linha2">
+                        <button value="4">4</button>
+                        <button value="5">5</button>
+                        <button value="6">6</button>
+                    </div>
+                    <div class="linha3">
+                        <button value="1">1</button>
+                        <button value="2">2</button>
+                        <button value="3">3</button>
+                    </div>
+                    <div class="linha4">
+                        <button value="0" class="zero">0</button>
+                        <button value="." class="ponto">.</button>
+                    </div>
+                </div>
+                <div class="operadores">
+                    <div class="cec">
+                        <button value="CE">CE</button>
+                        <button value="C">C</button>
+                    </div>
+                    <div class="sub-mtp">
+                        <button value="/">/</button>
+                        <button value="*">*</button>
+                    </div>
+                    <div class="mais-menos">
+                        <div class="menos">
+                            <button value="-">-</button>
+                        </div>
+                        <div class="menos">
+                            <button value="+" class="mais">+</button>
+                        </div>
+                    </div>
+                    <div class="igual">
+                        <button value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
